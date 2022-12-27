@@ -1,47 +1,27 @@
 # Handwritten Digit Recognition Using OpenCV and Python
-# Dataset used
+
+## Dataset used
 For this project I used the MNIST dataset. It is freely available on the Internet.
 
-# Requirements
- 1.Python3
- 2.Sklearn
- 3.OpenCV3
- 4.numpy
- 5.Jupyter-Notebook
- 
-# Training SVM model
-1.SVM_Classifier.ipynb - This is a ipython notebook so you need jupyter-notebook installed to use this file. Use this file if you want to retrain the model.
-digits_cls1.pkl - This is a saved SVM model file.
-2.Digit recognition using OpenCV
-dig_rec.ipynb - This is a ipython notebook for recognising handwritten digit in images using OpenCV .This file is using trained SVM model digits_cls1.pkl.
+## Requirements
+1. Python 3
+2. Sklearn
+3. OpenCV 3
+4. numpy
+5. Jupyter-Notebook
 
-Real time single digit recognition using OpenCV
-dig_rec_vid.ipynb - This is a ipython notebook for recognising single handwritten digit using webcam and OpenCV .This file is also using trained SVM model digits_cls1.pkl.
+## Training SVM model
+1. <b>SVM_Classifier.ipynb</b> - This is a ipython notebook so you need jupyter-notebook installed to use this file. Use this file if you want to retrain the model.
+2. <b>digits_cls1.pkl</b> - This is a saved SVM model file.
 
-Real time multi digit recognition using OpenCV
-multidig_rec_vid.ipynb - This is a ipython notebook for recognising multi handwritten digit using webcam and OpenCV .This file is also using trained SVM model digits_cls1.pkl.
+## Digit recognition using OpenCV
+<b>dig_rec.ipynb</b> - This is a ipython notebook for recognising handwritten digit in images using OpenCV .This file is using trained SVM model <b>digits_cls1.pkl</b>.
 
-How to use these projects
-You can use these projects direct opening the perticular ipython notebook dig_rec.ipynb or dig_rec_vid.ipynb or multidig_rec_vid.ipynb.
+## Real time single digit recognition using OpenCV
+<b>dig_rec_vid.ipynb</b> - This is a ipython notebook for recognising single handwritten digit using webcam and OpenCV .This file is also using trained SVM model <b>digits_cls1.pkl</b>.
 
-About
-Real time MNIST digit recognition with OpenCV and Support Vector Machine (SVM) algorithm.
+## Real time multi digit recognition using OpenCV
+<b>multidig_rec_vid.ipynb</b> - This is a ipython notebook for recognising multi handwritten digit using webcam and OpenCV .This file is also using trained SVM model <b>digits_cls1.pkl</b>.
 
-Topics
-handwritten-digit-recognition
-Resources
- Readme
-License
- MIT license
-Stars
- 37 stars
-Watchers
- 2 watching
-Forks
- 25 forks
-Releases
-No releases published
-Packages
-No packages published
-Languages
-Jupyter Notebook
+## How to use these projects
+You can use these projects direct opening the perticular ipython notebook <b>dig_rec.ipynb</b> or <b>dig_rec_vid.ipynb</b> or <b>multidig_rec_vid.ipynb</b>.
