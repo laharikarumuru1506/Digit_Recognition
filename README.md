@@ -1,18 +1,18 @@
-# Digit_Recognition
-Handwritten Digit Recognition Using OpenCV and Python
-Dataset used
+# Handwritten Digit Recognition Using OpenCV and Python
+# Dataset used
 For this project I used the MNIST dataset. It is freely available on the Internet.
 
-Requirements
-Python 3
-Sklearn
-OpenCV 3
-numpy
-Jupyter-Notebook
-Training SVM model
-SVM_Classifier.ipynb - This is a ipython notebook so you need jupyter-notebook installed to use this file. Use this file if you want to retrain the model.
+# Requirements
+ 1.Python3
+ 2.Sklearn
+ 3.OpenCV3
+ 4.numpy
+ 5.Jupyter-Notebook
+ 
+# Training SVM model
+1.SVM_Classifier.ipynb - This is a ipython notebook so you need jupyter-notebook installed to use this file. Use this file if you want to retrain the model.
 digits_cls1.pkl - This is a saved SVM model file.
-Digit recognition using OpenCV
+2.Digit recognition using OpenCV
 dig_rec.ipynb - This is a ipython notebook for recognising handwritten digit in images using OpenCV .This file is using trained SVM model digits_cls1.pkl.
 
 Real time single digit recognition using OpenCV
